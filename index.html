@@ -37,28 +37,64 @@
           you make any room feel complete.
         </p>
       </section>
-      <footer class="footer">
-        <div class="item1">
-          <img
-            src="images/avatar-michelle.jpg"
-            alt="avatar-michelle"
-            class="avatar-img"
-          />
-          <p class="footer-text">
-            <strong>Michelle Appleton</strong><br />28 Jun 2020
-          </p>
-        </div>
-        <div class="item2">
-          <a href="" class="share">
+      <div class="f1" id="f1">
+        <div class="footer" id="footer">
+          <div class="item1">
             <img
-              src="images/icon-share.svg"
-              alt="share-icon"
-              class="share-icon"
+              src="images/avatar-michelle.jpg"
+              alt="avatar-michelle"
+              class="avatar-img"
             />
-          </a>
+            <p class="footer-text">
+              <strong>Michelle Appleton</strong><br />28 Jun 2020
+            </p>
+          </div>
+          <div class="item2">
+            <a
+              href="#"
+              class="share"
+              id="toggle-btn1"
+              onclick="hide_show('f1', 'f2');"
+            >
+              <img
+                src="images/icon-share.svg"
+                alt="share-icon"
+                class="share-icon"
+              />
+            </a>
+          </div>
         </div>
-      </footer>
-      <footer class="footer2">Share</footer>
+      </div>
+      <div class="f2" id="f2">
+        <div class="footer2" id="footer2">
+          <p class="footer2-text">Share</p>
+          <div class="item3">
+            <a href="#"
+              ><img src="images/icon-facebook.svg" alt="facebook-icon" /></a
+            ><a href="#"
+              ><img
+                src="images/icon-twitter.svg"
+                alt="twitter-icon"
+                class="twitter-icon" /></a
+            ><a href="#"
+              ><img src="images/icon-pinterest.svg" alt="printerest-icon"
+            /></a>
+          </div>
+          <div class="item4">
+            <a
+              href="#"
+              class="share"
+              id="toggle-btn2"
+              onclick="hide_show('f2', 'f1');"
+              ><img
+                src="images/icon-share.svg"
+                alt="share-icon"
+                class="share-icon"
+            /></a>
+          </div>
+        </div>
+      </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
