@@ -6,5 +6,3 @@ function toggle_it() {
     one.style.display = "none";
   }
 }
-toggle_it();
-toggle_it();
