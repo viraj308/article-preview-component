@@ -1,6 +1,10 @@
-function hide_show(id_name1, id_name2) {
-  var block = document.getElementById(id_name1);
-  block.style.display = "none";
-  var block2 = document.getElementById(id_name2);
-  block2.style.display = "block";
+function toggle_it() {
+  var one = document.getElementById("f2");
+  if (one.style.display === "none") {
+    one.style.display = "block";
+  } else {
+    one.style.display = "none";
+  }
 }
+toggle_it();
+toggle_it();
